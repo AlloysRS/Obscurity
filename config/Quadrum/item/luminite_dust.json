@@ -1,0 +1,6 @@
+{
+    "name": "luminite_dust",
+    "texture": "luminite_dust",
+	"burn-time": 800,
+	"type": "item"
+}

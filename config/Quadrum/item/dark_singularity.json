@@ -1,0 +1,6 @@
+{
+    "name": "dark_singularity",
+    "texture": "dark_singularity",
+	"type": "item",
+	"max-stack-size": 1
+}

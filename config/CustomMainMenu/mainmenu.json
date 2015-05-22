@@ -1,0 +1,165 @@
+{
+    "images":
+    {},
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Singleplayer",
+			"texture" : "mainmenu:textures/button.png",
+            "posX" : -40,
+            "posY" : -40,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Multiplayer",
+			"texture" : "mainmenu:textures/button.png",
+            "posX" : -40,
+            "posY" : -18,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods (#modsloaded#/#modsactive#)",
+			"texture" : "mainmenu:textures/button.png",
+            "posX" : -40,
+            "posY" : 4,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "Options",
+			"texture" : "mainmenu:textures/button.png",
+            "posX" : -40,
+            "posY" : 26,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Quit",
+			"texture" : "mainmenu:textures/button.png",
+            "posX" : -40,
+            "posY" : 48,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"hoverText" : "No! Don't leave!",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+		"moreInfo":
+		{
+			"text" : "",
+			"texture" : "mainmenu:textures/forum.png",
+			"posX" : -2,
+			"posY" : -18,
+			"width" : 20,
+			"height" : 20,
+			"alignment" : "left_center",
+			"action" :
+			{
+				"type" : "openLink",
+				"link" : "http://forum.feed-the-beast.com/threads/1-7-10-obscurity-jampacked-2-hqm-roughly-200-quests-map-based.86908/"
+			}
+		},
+        
+        "language":
+        {
+            "text" : "",
+			"texture" : "mainmenu:textures/lang.png",
+            "posX" : -2,
+            "posY" : -40,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "changelog":
+        {
+            "text" : "",
+			"texture" : "mainmenu:textures/info.png",
+            "posX" : -2,
+            "posY" : 4,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "left_center",
+            "action" : 
+            {
+				"type" : "openGui",
+				"gui" : "custom.mainmenu"
+			}
+        }
+	},
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        
+		"packTxt":
+        {
+            "text" : "Minecraft #mcversion#\nForge #forgeversion#\nObscurity-1.1.7_Beta",
+            "posX" : 2,
+            "posY" : -37,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:textures/Background.png",
+			"mode" : "stretch"
+		}
+    }
+}

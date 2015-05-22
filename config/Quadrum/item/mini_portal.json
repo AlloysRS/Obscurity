@@ -1,0 +1,6 @@
+{
+    "name": "mini_portal",
+    "texture": "mini_portal",
+	"type": "item",
+	"max-stack-size": 1
+}

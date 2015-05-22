@@ -1,0 +1,28 @@
+{
+    "name": "mixed_compound",
+    "default-texture": "mixed_compound",
+    "material": "ground",
+	"type": "block",
+    "hardness": 1,
+	"resistance": 4,
+	"light-level": 0,
+	"requires-tool": "false",
+	"drops-self": "false",
+    "drops": [
+        {
+			"item": "minecraft:gravel", 
+			"damage": 0, 
+			"amount": "1"
+		},
+        {
+			"item": "minecraft:sand", 
+			"damage": 0, 
+			"amount": "1"
+		},
+        {
+			"item": "minecraft:clay_ball", 
+			"damage": 0, 
+			"amount": "4"
+		}
+	]
+}

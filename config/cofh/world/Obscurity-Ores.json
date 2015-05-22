@@ -1,0 +1,158 @@
+{
+    "Luminite": {
+        "template": "uniform",
+        "block": "Quadrum:luminite_ore",
+        "clusterSize": 3,
+        "numClusters": 10,
+        "minHeight": 40,
+        "maxHeight": 75,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"darkDirt": {
+        "template": "uniform",
+        "block": "minecraft:dirt",
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 48,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+			"all"
+		],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+			-100
+        ]
+    },
+	"mixedCompound": {
+        "template": "uniform",
+        "block": "Quadrum:mixed_compound",
+        "material": "minecraft:stone",
+        "clusterSize": 24,
+        "numClusters": 6,
+        "minHeight": 50,
+        "maxHeight": 75,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+			"all"
+		],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+			-100
+        ]
+    },
+	"netherQuartz": {
+        "template": "uniform",
+        "block": "nnn:quartzore",
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+			"all"
+		],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+			-100
+        ]
+    },
+	"Emerald": {
+        "template": "uniform",
+        "block": "emerald_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 2,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Yellorite": {
+        "template": "uniform",
+        "block": "BigReactors:YelloriteOre",
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 36,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "CertusQuartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "weight": 95
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "weight": 5
+            }
+        ],
+        "clusterSize": 8,
+        "numClusters": 8,
+        "minHeight": 38,
+        "maxHeight": 54,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Aluminium": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "TConstruct:SearedBrick",
+                "metadata": 5,
+                "weight": 100
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 10,
+        "minHeight": 36,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "luminite_ore",
+    "default-texture": "luminite_ore",
+    "material": "rock",
+    "hardness": 2,
+	"resistance": 10,
+	"light-level": 8,
+	"requires-tool": "true",
+	"drops-self": "false",
+    "drops": [
+        {
+			"item": "Quadrum:luminite_dust", 
+			"damage": 0, 
+			"amount": "4"
+		}
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "events": [
+        {
+            "event_type": "JOIN_WORLD",
+            "target": "ALL_PLAYERS",
+            "noDeathDim": "true",
+            "joinOneEver": "false",
+            "tasks": [
+                {
+                    "task_type": "COMMAND",
+                    "command": "/hqm enable",
+                    "ignorePrivllages": "true"
+                }
+            ]
+        },
+        {
+            "event_type": "CHAT",
+            "text": "!buy kini",
+            "tasks": [
+                {
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "ONE_PLAYER",
+                    "target": "Runew0lf",
+                    "modid": "Mankini",
+                    "name": "itemDyeableMankini",
+                    "meta": "0",
+                    "count": "1",
+                    "condtions": [
+                        {
+                            "condition_type": "INVENTORY",
+                            "reversed": "true",
+                            "modid": "Mankini",
+                            "name": "itemDyeableMankini",
+                            "meta": "0"
+                        }
+                    ]
+                },
+                {
+                    "task_type": "COMMAND",
+                    "command": "/enchant Runew0lf 0 4",
+                    "conditions": [
+                        {
+                            "condition_type": "USING",
+                            "modid": "Mankini",
+                            "name": "itemDyeableMankini",
+                            "meta": "0"
+                        }
+                    ]
+                },
+                {
+                    "task_type": "COMMAND",
+                    "command": "/enchant Runew0lf 8 1",
+                    "conditions": [
+                        {
+                            "condition_type": "USING",
+                            "modid": "Mankini",
+                            "name": "itemDyeableMankini",
+                            "meta": "0"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "event_type": "JOIN_WORLD",
+            "target": "ALL_PLAYERS",
+            "noDeathDim": "true",
+            "joinOneEver": "true",
+            "tasks": [
+                {
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "CompactMachines",
+                    "name": "psd",
+                    "meta": "0",
+                    "count": "1",
+                    "conditions": [
+                        {
+                            "condition_type": "INVENTORY",
+                            "reversed": "true",
+                            "modid": "CompactMachines",
+                            "name": "psd",
+                            "meta": "0"
+                        }
+                    ]
+                },
+                {
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "HardcoreQuesting",
+                    "name": "quest_book",
+                    "meta": "0",
+                    "count": "1",
+                    "conditions": [
+                        {
+                            "condition_type": "INVENTORY",
+                            "reversed": "true",
+                            "modid": "HardcoreQuesting",
+                            "name": "quest_book",
+                            "meta": "0"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

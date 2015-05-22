@@ -1,0 +1,6 @@
+block modify property=drops action=remove block=minecraft:torch item=minecraft:torch
+block modify property=drops action=add block=minecraft:torch item=minecraft:stick minchance=1 maxchance=2 minamount=1 maxamount=1
+block modify property=drops action=add block=minecraft:torch item=Quadrum:unlit_torch minchance=1 maxchance=5 minamount=1 maxamount=1
+block modify property=drops action=remove block=minecraft:coal_ore item=minecraft:coal
+block modify property=drops action=remove block=minecraft:coal_ore item=minecraft:coal_ore
+block modify property=drops action=add block=minecraft:coal_ore item=progressiveautomation:CoalPellet minchance=1 maxchance=1 minamount=8 maxamount=32

@@ -1,0 +1,19 @@
+##########################################################################################
+#Obscurity Script: <file name here> - By SnowShock, JohnnyMobbins
+##########################################################################################
+
+print("Obscurity Script: <file name here> loading...");
+
+//<Sub category name goes here (a list of them can be found bellow)>
+
+print("Obscurity Script: <file name here> loaded");
+
+//End of script!
+
+################################
+#BELLOW THIS IS NOT NEEDED!!!
+################################
+//Imports - Import mods if needed (THIS HAS TO BE AT THE TOP IF USED!!!)
+//Values - given to items that are referenced in recipe additions/removals and other more than several times
+//Removed recipes - Add recipes that you want removed bellow
+//Added recipes - Add recipes that you want to add bellow (Note: List custom crafting handlers last)
