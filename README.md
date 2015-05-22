@@ -126,21 +126,21 @@ Modlist:
 Change logs
 ===========
 
-*Obscurity - 1.7.10-1.1.7_Beta*
+**Obscurity - 1.7.10-1.1.7_Beta**
 
-*Updated:*
+**Updated:**
 * Forge/FML by LexManos, cpw
 * LaunchGUI by TehNut
 * Mob Amputation by iChun
 
-*Added:*
+**Added:**
 * { JSONAbles } by jaredlll08
 * EnderTech by voxelcarrot
 * Mankini by MasterAbdoTGM50
 
-*Removed:*
+**Removed:**
 
-*MineTweaker Script Changes:*
+**MineTweaker Script Changes:**
 * Flint and Steel is now made with a 2 steel ingots and a piece of flint 
 * All quadrum localization, tooltips and name changes are done in the master.zs along with other mod tooltips ect
 * Now a recipe to get early game lava and magma cream
@@ -148,7 +148,7 @@ Change logs
 * Removed the chandelier recipe from extrautils 
 * Altered some tooltips
 
-*Configuration Changes:*
+**Configuration Changes:**
 * Upped main menu version number
 * Removed all unneeded config files
 * Tweaked the torch script
@@ -162,12 +162,8 @@ Change logs
 * Disabled distant search for openblocks elevators
 * Glowstone now gives off it’s original light level of 15
 
-]
-Quest Book Changes: [
-Johnny & Myself Added, fixed and removed stuff!
-]
-
-
+**Quest Book Changes**
+* Johnny & Myself Added, fixed and removed stuff!
 
 *****
 
