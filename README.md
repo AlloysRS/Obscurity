@@ -126,7 +126,7 @@ Modlist:
 Change logs
 ===========
 
-**Obscurity - 1.7.10-1.1.7_Beta**
+#Obscurity - 1.7.10-1.1.7_Beta
 
 **Updated:**
 * Forge/FML by LexManos, cpw
