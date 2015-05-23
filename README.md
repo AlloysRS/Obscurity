@@ -2,13 +2,13 @@ Obscurity - 1.7.10-1.1.7_Beta Minecraft Modification Package Created for Jampack
 ====================================================================================
 **Story Introduction:**
 
-Earth has begun to feel the effects of man’s hunger for resources and ruthless destruction of the environment. People have begun to worry about what will be left for the future. Something had to be done... A group of highly trained physicists have been working on something new and very dangerous... World Compression. Although our intention was to save the Earth is seems it may now be trapped. You are now the only one who can save us all. There’s no turning back, you must save the world as time is running out.
+Earth has begun to feel the effects of man’s hunger for resources and ruthless destruction of the environment. People have begun to worry about what will be left for the future. Something has to be done... A group of highly trained physicists have been working on something new and very dangerous... World Compression. Although our intention was to save the Earth it seems it may now be trapped. You are now the only one who can save us all. There’s no turning back, you must save the world as time is running out.
 
 **Pack Description:**
 
 Welcome to Obscurity!
 
-Obscurity is the first modification package by SnowShock & JohnnyMobbins. Created for Jampacked II, This lightweight, highly configured and aesthetically pleasing pack introduces a new level of survival where the darkness is the enemy and light is key to your survival. So what are you waiting for? Enter Obscurity and begin the journey to defeat the darkness and evil undead within the shadows. Good luck, the world's survival lies within your hands...
+Obscurity is the first modification package by SnowShock & JohnnyMobbins. Created for Jampacked II, this lightweight, highly configured and aesthetically pleasing pack introduces a new level of survival where the darkness is the enemy and light is key to your survival. So what are you waiting for? Enter Obscurity and begin the journey to defeat the darkness and evil undead within the shadows. Good luck, the world's survival lies within your hands...
 
 **This pack contains [FastCraft](http://bit.ly/1vVVX6u) a mod by Player. It's purpose is to increased Minecraft performance. Bug reports being made directly to Mod Authors should state FastCraft is enabled.**
 
@@ -123,7 +123,7 @@ Modlist:
 
 *****
 
-Change logs
+Changelogs
 ===========
 
 #Obscurity - 1.7.10-1.1.7_Beta
@@ -143,7 +143,7 @@ Change logs
 **MineTweaker Script Changes:**
 * Flint and Steel is now made with a 2 steel ingots and a piece of flint 
 * All quadrum localization, tooltips and name changes are done in the master.zs along with other mod tooltips ect
-* Now a recipe to get early game lava and magma cream
+* Added a recipe to get early game lava and magma cream
 * Added cotton seeds to seeds.zs
 * Removed the chandelier recipe from extrautils 
 * Altered some tooltips
@@ -163,7 +163,7 @@ Change logs
 * Glowstone now gives off it’s original light level of 15
 
 **Quest Book Changes**
-* Johnny & Myself Added, fixed and removed stuff!
+* Johnny & myself added, fixed and removed stuff!
 
 *****
 
