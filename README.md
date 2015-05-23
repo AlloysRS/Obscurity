@@ -2,7 +2,7 @@ Obscurity - 1.7.10-1.1.7_Beta Minecraft Modification Package Created for Jampack
 ====================================================================================
 **Story Introduction:**
 
-Earth has begun to feel the effects of man’s hunger for resources and ruthless destruction of the environment. People have begun to worry about what will be left for the future. Something had to be done... A group of highly trained physicists have been working on something new and very dangerous... World Compression. Although our intention was to save the Earth is seems it may now be trapped. You are now the only one who can save us all. There’s no turning back, you must save the world as time is running out.
+Earth has begun to feel the effects of manâ€™s hunger for resources and ruthless destruction of the environment. People have begun to worry about what will be left for the future. Something had to be done... A group of highly trained physicists have been working on something new and very dangerous... World Compression. Although our intention was to save the Earth is seems it may now be trapped. You are now the only one who can save us all. Thereâ€™s no turning back, you must save the world as time is running out.
 
 **Pack Description:**
 
@@ -17,7 +17,7 @@ Obscurity is the first modification package by SnowShock & JohnnyMobbins. Create
 Important Info:
 ===============
 * Pack Version: 1.7.10-1.1.7_Beta
-* Forge Version: 10.13.2.1401
+* Forge Version: 10.13.3.1401
 * Mods Loaded: 100/100
 * Pack Code (FTBLauncher 3rd Party Packs Tab): obscurity
 
@@ -160,7 +160,7 @@ Change logs
 * Added an easter egg for Runew0lf for the next time he feels like playing
 * tweaked tools ever so slightly and added clay buckets
 * Disabled distant search for openblocks elevators
-* Glowstone now gives off it’s original light level of 15
+* Glowstone now gives off itâ€™s original light level of 15
 
 **Quest Book Changes**
 * Johnny & Myself Added, fixed and removed stuff!
@@ -181,4 +181,4 @@ Credits
 
 A huge thank you from the bottom of my heart for every single one of you making this project possible. I never thought I would've got this far so thanks for all the support and help you've given. An extra special thank you to Mr JohnnyMobbins for buying me a ticket to Minecon 2015 this year. You are freaking awesome mate, glad to have you as a friend and also glad we were able to make this pack together. -Snow ;)
 
-**Obscurity© 2015 SnowShock35 & JohnnyMobbins - All Rights Reserved**
+**ObscurityÂ© 2015 SnowShock35 & JohnnyMobbins - All Rights Reserved**
