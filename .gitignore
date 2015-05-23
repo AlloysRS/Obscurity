@@ -1,0 +1,9 @@
+##Modpack .gitignore File
+/*
+
+!/config
+!/resources
+!/scripts
+!/.gitignore
+!/options.txt
+!/README.md 
