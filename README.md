@@ -123,7 +123,7 @@ Modlist:
 
 *****
 
-Change logs
+Changelogs
 ===========
 
 #Obscurity - 1.7.10-1.1.7_Beta
