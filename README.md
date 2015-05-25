@@ -174,7 +174,8 @@ Credits
 * JohnnyMobbins - Lead Quest/Lore writer, Sub pack developer, Reddit Thread creator/maintainer, Permission organizer
 * CyanideX - Pack Artist (Did all custom textures and banners ect)
 * Runew0lf - Quest book lore reader
-* Pack Testers (AKTheKnight, Jameskn, Jaredlll08, jod, Kacpix, Kemicaze, Otterskull, RAnders00, Seanthebaker, LordDusk, YoshiiPowa) - Bug Finders!
+* AKTheKnight - Keeping Snow on track, GitHub maintainer and Forums responder
+* Pack Testers (Jameskn, Jaredlll08, jod, Kacpix, Kemicaze, Otterskull, RAnders00, Seanthebaker, LordDusk, YoshiiPowa) - Bug Finders!
 * NewcastleGeek, lorddusk, Vswe - Authors of Hardcore Questing Mode mod (Making this pack come to life)
 * Mod authors - For allowing us to use all your fantastic mods in our pack
 * FTB/Curse - For organizing the competition, Hosting the packs on their launchers, Hosting the threads on their sites
