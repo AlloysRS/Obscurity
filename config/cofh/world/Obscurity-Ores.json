@@ -55,7 +55,7 @@
     },
 	"netherQuartz": {
         "template": "uniform",
-        "block": "nnn:quartzore",
+        "block": "nnn:OverworldQuartz",
         "material": "minecraft:stone",
         "clusterSize": 16,
         "numClusters": 8,

@@ -46,34 +46,29 @@ allBags.add(<bagginses:blackT2>);
 recipes.remove(compactMachineAll);
 recipes.remove(<minecraft:torch>);
 recipes.remove(<minecraft:bed>);
-recipes.remove(<CarpentersBlocks:itemCarpentersBed>);
-recipes.remove(<CarpentersBlocks:blockCarpentersBed>);
 recipes.remove(<minecraft:lit_pumpkin>);
 recipes.remove(<minecraft:leather_helmet>);
 recipes.remove(<minecraft:leather_chestplate>);
 recipes.remove(<minecraft:leather_leggings>);
 recipes.remove(<minecraft:leather_boots>);
-recipes.remove(<TConstruct:decoration.stonetorch>);
-recipes.remove(<appliedenergistics2:tile.BlockQuartzTorch>);
-recipes.remove(<Thaumcraft:blockMetalDevice:7>);
-recipes.remove(<appliedenergistics2:tile.BlockQuartzLamp>);
-recipes.remove(<ExtraUtilities:dark_portal>);
-recipes.remove(<BigReactors:BRMetalBlock:4>);
-recipes.remove(<ExtraUtilities:peaceful_table_top>);
-recipes.remove(<harvestcraft:sink:*>);
-recipes.remove(<nnn:NetherGate>);
 recipes.remove(<minecraft:glowstone>);
 recipes.remove(<minecraft:glowstone_dust>);
 recipes.remove(<minecraft:golden_carrot>);
+recipes.remove(<minecraft:flint_and_steel>);
+recipes.remove(<appliedenergistics2:tile.BlockQuartzTorch>);
+recipes.remove(<appliedenergistics2:tile.BlockQuartzLamp>);
+recipes.remove(<BigReactors:BRMetalBlock:4>);
+recipes.remove(<CarpentersBlocks:itemCarpentersBed>);
+recipes.remove(<CarpentersBlocks:blockCarpentersBed>);
+recipes.remove(<ExtraUtilities:peaceful_table_top>);
+recipes.remove(<ExtraUtilities:dark_portal>);
+recipes.remove(<Thaumcraft:blockMetalDevice:7>);
+recipes.remove(<TConstruct:decoration.stonetorch>);
+recipes.remove(<harvestcraft:sink:*>);
+recipes.remove(<nnn:NetherGate>);
 recipes.remove(<xreliquary:alkahest_tome:256>);
 recipes.remove(<harvestcraft:wovencottonItem>);
-recipes.remove(<minecraft:flint_and_steel>);
-recipes.remove(<ExtraUtilities:chandelier>);
-
-//recipes.addShaped(<ExtraUtilities:chandelier>*1, [
-//[<ThermalFoundation:material:75>, <minecraft:diamond>, <ThermalFoundation:material:75>],
-//[<Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource:1>, <Thaumcraft:ItemResource:1>],
-//[null, <Thaumcraft:ItemResource:1>]]);
+recipes.remove(<xreliquary:void_tear>);
 
 //Added recipes - Add recipes that you want to add bellow (Note: List custom crafting handlers last)
 
@@ -135,6 +130,11 @@ recipes.addShaped(<Quadrum:unlit_torch>, [
 [<Quadrum:luminite_dust>], 
 [<minecraft:stick>]]);
 
+recipes.addShaped(<minecraft:lit_pumpkin>*1, [
+[<minecraft:torch>, <minecraft:torch>, <minecraft:torch>],
+[<minecraft:torch>, <minecraft:pumpkin>, <minecraft:torch>],
+[<minecraft:torch>, <minecraft:torch>, <minecraft:torch>]]);
+
 //furnace.addRecipe(<minecraft:torch> *1, <Quadrum:unlit_torch>, 0.5);
 
 recipes.addShaped(<minecraft:magma_cream>*1, [
@@ -171,8 +171,13 @@ mods.thermalexpansion.Crucible.addRecipe(4000, <minecraft:magma_cream>, <liquid:
 mods.thermalexpansion.Transposer.addFillRecipe(10000, <minecraft:obsidian>, <appliedenergistics2:tile.BlockSkyStone>, <liquid:coal>*1000);
 mods.thermalexpansion.Transposer.addFillRecipe(10000, <Quadrum:luminite_dust>, <minecraft:glowstone_dust>, <liquid:pyrotheum>*500);
 mods.thermalexpansion.Transposer.addFillRecipe(16000, <ThermalFoundation:material:76>, <BigReactors:BRIngot:8>, <liquid:mana>*1000);
-
+//mods.thermalexpansion.Transposer.addFillRecipe(16000, <minecraft:ghast_tear>, <xreliquary:void_tear>, <liquid:enderium.molten>*2000);
+recipes.addShaped(<xreliquary:void_tear>*1, [
+[<ThermalFoundation:material:108>, <ThermalFoundation:material:108>, <ThermalFoundation:material:108>],
+[<ThermalFoundation:material:108>, <minecraft:ghast_tear>, <ThermalFoundation:material:108>],
+[<ThermalFoundation:material:108>, <ThermalFoundation:material:108>, <ThermalFoundation:material:108>]]);
 //Names, Tooltips & Localization
+
 <ore:allBags>.addTooltip(format.white("Hold ") + format.yellow(format.italic("Shift ")) + format.white("for Details"));
 <ore:allBags>.addShiftTooltip(format.gray("Stores:") +format.green(" All"));
 <minecraft:minecart>.addTooltip(format.green("Hi there, " + "I'm GregButt"));

@@ -12,6 +12,16 @@
 			"setFire":"false",
             "viscosity":3000,
             "color":12229196
+        },
+		{
+            "unlocalizedName":"falling.fluid",
+            "density":1000,
+            "gaseous":"false",
+            "luminosity":1,
+            "temperature":300,
+			"setFire":"false",
+            "viscosity":1000,
+            "color":14540253
         }
     ],
     "aspects":[  

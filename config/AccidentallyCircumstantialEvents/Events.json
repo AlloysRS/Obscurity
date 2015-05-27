@@ -4,12 +4,25 @@
             "event_type": "JOIN_WORLD",
             "target": "ALL_PLAYERS",
             "noDeathDim": "true",
-            "joinOneEver": "false",
+            "joinOneEver": "true",
             "tasks": [
                 {
-                    "task_type": "COMMAND",
-                    "command": "/hqm enable",
-                    "ignorePrivllages": "true"
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "CompactMachines",
+                    "name": "psd",
+                    "meta": "0",
+                    "count": "1"
+                },
+                {
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "HardcoreQuesting",
+                    "name": "quest_book",
+                    "meta": "0",
+                    "count": "1"
                 }
             ]
         },
@@ -25,80 +38,13 @@
                     "name": "itemDyeableMankini",
                     "meta": "0",
                     "count": "1",
+                    "nbt": "{ench:[{id:0,lvl:4},{id:8,lvl:1}]}",
                     "condtions": [
                         {
                             "condition_type": "INVENTORY",
                             "reversed": "true",
                             "modid": "Mankini",
                             "name": "itemDyeableMankini",
-                            "meta": "0"
-                        }
-                    ]
-                },
-                {
-                    "task_type": "COMMAND",
-                    "command": "/enchant Runew0lf 0 4",
-                    "conditions": [
-                        {
-                            "condition_type": "USING",
-                            "modid": "Mankini",
-                            "name": "itemDyeableMankini",
-                            "meta": "0"
-                        }
-                    ]
-                },
-                {
-                    "task_type": "COMMAND",
-                    "command": "/enchant Runew0lf 8 1",
-                    "conditions": [
-                        {
-                            "condition_type": "USING",
-                            "modid": "Mankini",
-                            "name": "itemDyeableMankini",
-                            "meta": "0"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "event_type": "JOIN_WORLD",
-            "target": "ALL_PLAYERS",
-            "noDeathDim": "true",
-            "joinOneEver": "true",
-            "tasks": [
-                {
-                    "task_type": "INVENTORY_ADD",
-                    "target_type": "SELF",
-                    "target": "",
-                    "modid": "CompactMachines",
-                    "name": "psd",
-                    "meta": "0",
-                    "count": "1",
-                    "conditions": [
-                        {
-                            "condition_type": "INVENTORY",
-                            "reversed": "true",
-                            "modid": "CompactMachines",
-                            "name": "psd",
-                            "meta": "0"
-                        }
-                    ]
-                },
-                {
-                    "task_type": "INVENTORY_ADD",
-                    "target_type": "SELF",
-                    "target": "",
-                    "modid": "HardcoreQuesting",
-                    "name": "quest_book",
-                    "meta": "0",
-                    "count": "1",
-                    "conditions": [
-                        {
-                            "condition_type": "INVENTORY",
-                            "reversed": "true",
-                            "modid": "HardcoreQuesting",
-                            "name": "quest_book",
                             "meta": "0"
                         }
                     ]

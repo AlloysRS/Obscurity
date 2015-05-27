@@ -108,14 +108,14 @@ Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
 Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
 Loading: Mekanism.js
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: TConstruct:GlassBlock.StainedClear_3
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, TConstruct:GlassBlock.StainedClear_3
+getRandomMaterial called. Returned: TConstruct:GlassBlock.StainedClear_6
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, TConstruct:GlassBlock.StainedClear_6
 Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: TConstruct:GlassBlock.StainedClear_5
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, TConstruct:GlassBlock.StainedClear_5
+getRandomMaterial called. Returned: TConstruct:GlassBlock.StainedClear_10
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, TConstruct:GlassBlock.StainedClear_10
 Loading: BuildCraft.js
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
@@ -240,8 +240,8 @@ Found ItemStack BiblioCraft:item.tapeMeasure. 1xitem.tapeMeasure@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 1467
-override called. Params: appliedenergistics2, item.ItemFacade, 1169
+getNumberOfTypes called. Returned: 1446
+override called. Params: appliedenergistics2, item.ItemFacade, 536
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js

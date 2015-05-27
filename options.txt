@@ -1,10 +1,10 @@
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:12
-guiScale:0
+guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
@@ -25,7 +25,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true
@@ -118,11 +118,11 @@ key_key.control:29
 key_key.journeymap.map_toggle:36
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
-key_key.journeymap.minimap_type:26
+key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_type:27
 key_key.journeymap.minimap_preset:43
 key_key.journeymap.create_waypoint:48
-soundCategory_master:1.0
+soundCategory_master:0.205298
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

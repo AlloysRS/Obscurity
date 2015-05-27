@@ -146,7 +146,7 @@
         
 		"packTxt":
         {
-            "text" : "Minecraft #mcversion#\nForge #forgeversion#\nObscurity-1.1.7_Beta",
+            "text" : "Minecraft #mcversion#\nForge #forgeversion#\nObscurity-1.1.8_Beta",
             "posX" : 2,
             "posY" : -37,
             "color" : -1,

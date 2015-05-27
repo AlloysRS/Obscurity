@@ -20,5 +20,4 @@ removeNEI.add(<FlatSigns:item.sponge.wipe>);
 removeNEI.add(<Mantle:mantleBook>);
 
 for item in <ore:removeNEI>.items {NEI.hide(item);}
-
 //End of script!
