@@ -1,4 +1,4 @@
-Obscurity - 1.7.10-1.1.7_Beta Minecraft Modification Package Created for Jampacked 2
+Obscurity - 1.7.10-1.1.8_Beta Minecraft Modification Package Created for Jampacked 2
 ====================================================================================
 **Story Introduction:**
 
@@ -16,9 +16,9 @@ Obscurity is the first modification package by SnowShock & JohnnyMobbins. Create
 
 Important Info:
 ===============
-* Pack Version: 1.7.10-1.1.7_Beta
+* Pack Version: 1.7.10-1.1.8_Beta
 * Forge Version: 10.13.3.1401
-* Mods Loaded: 100/100
+* Mods Loaded: 101/101
 * Pack Code (FTBLauncher 3rd Party Packs Tab): obscurity
 
 *****
@@ -126,6 +126,45 @@ Modlist:
 Changelogs
 ===========
 
+#Obscurity - 1.7.10-1.1.8_Beta
+
+**Updated:**
+* Accidentally Circumstantial Events(ACE) by Zavviasso
+* Compact Machines by Davenonymous
+* Extra Utilities by RWTema
+* Simply Jetpacks by Tonius
+* Steve's Addons by hilburn
+* Thaumcraft Node Tracker by Dyonovan
+
+**Added:**
+* None
+**Removed:**
+* None
+
+**MineTweaker Script Changes:**
+* New Jack O' Lantern recipe added
+* Re-enabled the ExtraUtils Chandelier
+* Changed the void tier recipe because of bug in modtweaker #blameJared
+
+**Configuration Changes:**
+* Upped main menu & LaunchGUI version number
+* All Chisel 2 "Cheaty Blocks" have been disabled
+* Disabled all wooden and stone tools again. This is sticking now. No more changes.
+* Jack O' lanterns will only return a pumpkin to stop you cheaters :p
+* No more bloody "Squiddy" squids
+* Added falling fluid and replaced it at the starting point of the map to stop players from returning to the top also added dark etheral glass to remove mobs entering there
+* Fixed nether quartz ore not spawning due to an ID change
+
+**Quest Book Changes**
+* Added glowing water quest in Entering The Darkness
+* Fixed location of emergency cube quest in Entering The Darkness
+* First farming quest now requires a mattock not a hoe
+* Added new mapping quest to unearth the darkness
+* Considerable additions and changes to Forge The Darkness - With layout done by SnowShock
+* Fixed Johnny's English
+
+*****
+
 #Obscurity - 1.7.10-1.1.7_Beta
 
 **Updated:**
@@ -174,8 +213,7 @@ Credits
 * JohnnyMobbins - Lead Quest/Lore writer, Sub pack developer, Reddit Thread creator/maintainer, Permission organizer
 * CyanideX - Pack Artist (Did all custom textures and banners ect)
 * Runew0lf - Quest book lore reader
-* AKTheKnight - Keeping Snow on track, GitHub maintainer and Forums responder
-* Pack Testers (Jameskn, Jaredlll08, jod, Kacpix, Kemicaze, Otterskull, RAnders00, Seanthebaker, LordDusk, YoshiiPowa) - Bug Finders!
+* Pack Testers (AKTheKnight, Jameskn, Jaredlll08, jod, Kacpix, Kemicaze, Otterskull, RAnders00, Seanthebaker, LordDusk, YoshiiPowa) - Bug Finders!
 * NewcastleGeek, lorddusk, Vswe - Authors of Hardcore Questing Mode mod (Making this pack come to life)
 * Mod authors - For allowing us to use all your fantastic mods in our pack
 * FTB/Curse - For organizing the competition, Hosting the packs on their launchers, Hosting the threads on their sites
